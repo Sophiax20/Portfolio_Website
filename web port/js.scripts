@@ -1,0 +1,21 @@
+
+
+@media (max-width: 768px) {
+   .hero-section {
+        height: 50vh;
+    }
+}
+
+@media (max-width: 480px) {
+   .hero-section {
+        height: 30vh;
+    }
+}
+
+('button[data-scroll]').on('click', function(e) {
+    e.preventDefault();
+    var target = $(this).attr('data-scroll');
+    $('html, body').animate({
+        scrollTop: $(target).offset().top
+    }, 1000); // Adjust the animation speed (1000 = 1 second)
+});
