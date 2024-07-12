@@ -369,6 +369,17 @@
   color: #fff; 
 }
 
+.footer-section {
+  background-color: #e258b9; 
+  text-align: center; 
+  padding: 20px 0; 
+  color: #333; 
+}
+
+.footer-section p {
+  margin: 5px 0; 
+}
+
 .social-media {
   margin-top: 20px;
   display: flex;
